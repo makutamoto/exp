@@ -18,5 +18,5 @@ jobs:
     - name: save .app
       uses: actions/upload-artifact@v2
       with:
-        name: app
+        name: exp.app
         path: ./build/Debug-iphonesimulator/exp.app 
